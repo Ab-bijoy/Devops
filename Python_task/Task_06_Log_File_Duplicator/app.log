@@ -1,0 +1,12 @@
+2026-01-22 10:30:15 INFO  [main] Application started successfully
+2026-01-22 10:30:16 INFO  [main] Loading configuration from /etc/app/config.yaml
+2026-01-22 10:30:17 DEBUG [db] Establishing connection to database server
+2026-01-22 10:30:18 INFO  [db] Connected to PostgreSQL at 192.168.1.50:5432
+2026-01-22 10:30:19 WARN  [cache] Redis cache miss, falling back to database
+2026-01-22 10:30:20 INFO  [api] REST API listening on port 8080
+2026-01-22 10:30:25 INFO  [api] GET /health - 200 OK (5ms)
+2026-01-22 10:30:30 INFO  [api] POST /api/users - 201 Created (45ms)
+2026-01-22 10:30:35 ERROR [api] GET /api/orders/999 - 404 Not Found
+2026-01-22 10:30:40 WARN  [auth] Failed login attempt for user 'admin' from 10.0.0.55
+2026-01-22 10:30:45 INFO  [api] GET /api/products - 200 OK (12ms)
+2026-01-22 10:30:50 DEBUG [metrics] CPU: 45%, Memory: 2.3GB, Disk: 67%
